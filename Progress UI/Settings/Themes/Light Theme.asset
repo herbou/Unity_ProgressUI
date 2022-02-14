@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ba0241022392445a8c447b2344d8a4, type: 3}
+  m_Name: Light Theme
+  m_EditorClassIdentifier: 
+  Name: Light
+  ProgressColors:
+  - color: 0
+    value: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+  - color: 1
+    value: {r: 0.9811321, g: 0.33784264, b: 0.33784264, a: 1}
+  - color: 2
+    value: {r: 0.9433962, g: 0.30704877, b: 0.7686167, a: 1}
+  - color: 3
+    value: {r: 0.65552074, g: 0.30015132, b: 0.8962264, a: 1}
+  - color: 4
+    value: {r: 0.19624424, g: 0.49870107, b: 0.9245283, a: 1}
+  - color: 5
+    value: {r: 0.27397808, g: 0.7735849, b: 0.19339623, a: 1}
+  - color: 6
+    value: {r: 0.7735849, g: 0.71933085, b: 0.07662869, a: 1}
+  - color: 7
+    value: {r: 0.9245283, g: 0.45645905, b: 0.13519046, a: 1}
+  OverlayColor: {r: 0, g: 0, b: 0, a: 0.11764706}
+  BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  TitleTextColor: {r: 0.11320752, g: 0.111605525, b: 0.111605525, a: 1}
+  DetailsTextColor: {r: 0.1137255, g: 0.10980393, b: 0.10980393, a: 0.59607846}
