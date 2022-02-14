@@ -9,15 +9,16 @@ A Powerful,Customizable, and esay-to-use Progress UI for Unity
 - All platforms (Standalone Builds, Android, iOS, WebGl, and more..)
 <br><br>
 ## ■ How to use?  :
-### 1- Import **EasyUI_Progress** package.
+### 1- Make sure that you have TextMesh Pro in your project.
+### 2- Import **EasyUI_Progress** package.
 ⚠️ NOTE! : No need to add any prefab to the scene
-### 2- Add **EasyUI.Progress** namespace in your script :
+### 3- Add **EasyUI.Progress** namespace in your script :
 ```c#
 using EasyUI.Progress ;
 ```
 <br>
 
-### 3- Now Simply write ```Progress.Show()```:
+### 4- Now Simply write ```Progress.Show()```:
 ```c#
 Progress.Show ("Please wait...") ;
 ```
