@@ -1,89 +1,60 @@
-# Toast UI for your Game messages
-A powerful,Customizable, and esay-to-use Toast UI for Unity
+# Loading window UI for your game operations
+A Powerful,Customizable, and esay-to-use Progress UI for Unity
 
-<img src="https://www.mediafire.com/convkey/6af4/br7apcoostvua8mzg.jpg" alt="Toast ui" height="80" />
+<img src="https://www.mediafire.com/convkey/9d3e/edan0z8gxkw0pd27g.jpg" alt="Loading window" height="150" />
 
-### Video tutorial : https://youtu.be/405lXPINdx0
+### Video tutorial : https://youtu.be/sipdow-FAgk
 <br><br>
 ## ■ Supporting Platforms :
 - All platforms (Standalone Builds, Android, iOS, WebGl, and more..)
 <br><br>
 ## ■ How to use?  :
-### 1- Import **EasyUI_Toast** package.
+### 1- Import **EasyUI_Progress** package.
 ⚠️ NOTE! : No need to add any prefab to the scene
-### 3- Add **EasyUI.Toast** namespace in your script :
+### 2- Add **EasyUI.Progress** namespace in your script :
 ```c#
-using EasyUI.Toast ;
+using EasyUI.Progress ;
 ```
 <br>
 
-### 4- Now Simply write ```Toast.Show()```:
+### 3- Now Simply write ```Progress.Show()```:
 ```c#
-// Simple :
-Toast.Show ("Hello Devs") ;
-
-// With duration :
-Toast.Show ("Hello Devs", 3f) ;
+Progress.Show ("Please wait...") ;
 ```
+<img src="https://www.mediafire.com/convkey/2b8f/rnjvgswrpmiotny7g.jpg" alt="Loading window" height="150" />
+
 <br>
 
 ## ■ Change colors :
+Built-in Colors  ( Default, Red, Purple, Magenta, Blue, Green, Yellow, Orange ) :
 ```c#
-// Built-in Colors  ( Black, Red, Purple, Magenta, Blue, Green, Yellow, Orange ) :
-Toast.Show ("Hello Devs", 3f, ToastColor.Green) ;
-
-// Custom Colors :
-Toast.Show ("Hello Devs", 4f, new Color (1f, .4f, 0f)) ;
-// or Toast.Show ("Hello Devs", 4f, Color.blue);
+Progress.Show ("Please wait...", ProgressColor.Blue) ;
 ```
+
 <br>
 
-## ■ Change position :
+## ■ Add details :
 ```c#
-// Positions ( TopLeft, TopCenter, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomCenter, BottomRight ) :
-Toast.Show ("Top-Center Toast", 3f, ToastPosition.TopCenter) ;
+Progress.Show ("Please wait...", ProgressColor.Blue, true) ;
+Progress.SetDetailsText ("Loading Assets...") ;
 ```
+<img src="https://www.mediafire.com/convkey/7e7b/khjutl5mi05q7iy7g.jpg" alt="Loading window" height="150" />
+
 <br>
 
-## ■ Change text styling :
+## ■ Set progress :
 ```c#
-Toast.Show ("Hello, <color=yellow>This is a yellow text</color>", 3f);
+Progress.SetProgressValue (70f) ; 
 ```
-<img src="https://www.mediafire.com/convkey/336a/c3pmudunpkuhbvb7g.jpg" alt="Toast ui" height="80" />
-for more supported style tags : <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html">Text supported styles</a>
 
-<br><br>
-
-## ■ Dismiss (hide) toast :
-```c#
-Toast.Dismiss();
-```
 <br>
 
-## ■ Other Show(..) versions :
+## ■ Change theme :
+Go to project files :
 ```c#
-Toast.Show (string text);
-
-Toast.Show (string text, float duration);
-
-Toast.Show (string text, float duration, ToastPosition position);
-
-Toast.Show (string text, ToastColor color);
-
-Toast.Show (string text, ToastColor color, ToastPosition position);
-
-Toast.Show (string text, Color color);
-
-Toast.Show (string text, Color color, ToastPosition position);
-
-Toast.Show (string text, float duration, ToastColor color);
-
-Toast.Show (string text, float duration, ToastColor color, ToastPosition position);
-
-Toast.Show (string text, float duration, Color color);
-
-Toast.Show (string text, float duration, Color color, ToastPosition position);
+Assets / Progress UI / Settings / ..
 ```
+
 
 
 
